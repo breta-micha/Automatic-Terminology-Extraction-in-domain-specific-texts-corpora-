@@ -38,10 +38,10 @@ def calculate_precision_recall_fscore(gold_file, machine_file):
     return f"Recall: {Recall} , Precision: {Precision} , F1score: {F1score}."
 	
 #Annotations
-gold_corp_file = 'C:/Users/breta/Desktop/Master Text Mining/5.6. Thesis/1. Code/data/ACTER-master/en/corp/annotations/corp_en_terms.ann'
-gold_equi_file = 'C:/Users/breta/Desktop/Master Text Mining/5.6. Thesis/1. Code/data/ACTER-master/en/equi/annotations/equi_en_terms.ann'
-gold_wind_file = 'C:/Users/breta/Desktop/Master Text Mining/5.6. Thesis/1. Code/data/ACTER-master/en/wind/annotations/wind_en_terms.ann'
-gold_htfl_file = 'C:/Users/breta/Desktop/Master Text Mining/5.6. Thesis/1. Code/data/ACTER-master/en/htfl/annotations/htfl_en_terms.ann'
+gold_corp_file = '../data/ACTER-master/en/corp/annotations/corp_en_terms.ann'
+gold_equi_file = '../data/ACTER-master/en/equi/annotations/equi_en_terms.ann'
+gold_wind_file = '../data/ACTER-master/en/wind/annotations/wind_en_terms.ann'
+gold_htfl_file = '../data/ACTER-master/en/htfl/annotations/htfl_en_terms.ann'
 
 #Rule-based System -- Output
 machine_corp_file = '../data/corp_log_rf.csv'
