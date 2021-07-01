@@ -2,6 +2,7 @@
 A comparison between a rule-based system (statistical approach) and a machine learning system (BERT based approach)
 
 for the excecution of this program the following packages are needed:
+   - sys
    - glob
    - os
    - csv
